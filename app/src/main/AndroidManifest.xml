@@ -25,6 +25,29 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <activity
+            android:name=".Main5Activity"
+            android:label=""
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".Main4Activity"
+            android:label=""
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Main3Activity"
+            android:label=""
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Main2Activity"
+            android:label=""
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
     </application>
 
 </manifest>
