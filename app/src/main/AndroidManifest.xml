@@ -13,8 +13,10 @@
         android:theme="@style/Theme.FurnitureOnline"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,6 +45,13 @@
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
             android:name=".Main2Activity"
+            android:label=""
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name=".SignupScreen"
             android:label=""
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
